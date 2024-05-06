@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url("/img/bg.jpg");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table tr {
+    border: none;
+}
+
+table td {
+    border: none;
+}
+
+table {
+    border: 1px solid rgb(66, 61, 61);
+    border-radius: 1%;
+    background-color: gray;
+}
+
+.inputs_2 table input[type='text'] {
+    width: 30px;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.first_section {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+    row-gap: 15px;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.first_section h1 {
+    font-size: 40px;
+}
+
+.btn {
+    border: 1px solid;
+    padding: 3px;
+    border-radius: 2px;
+    margin: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: antiquewhite;
+    transition: background-color .2s;
+}
+
+.btn:hover {
+    background-color: transparent;
+}
+
+.add-btn:hover {
+    background-color: rgb(47, 255, 127);
+}
+
+.del-btn:hover {
+    background-color: brown;
+}
+
+.inputs_1 {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.inputs_1 input {
+    padding: 2px;
+    width: 100%;
+    background-color: antiquewhite;
+    border: 1px solid;
+    font-size: 18px;
+}
